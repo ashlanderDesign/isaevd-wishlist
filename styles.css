@@ -6,7 +6,7 @@
 .header {
   position: sticky;
   top: 0;
-  background-color: #fff;
+  background-color: var(--pico-card-background-color);
   border-bottom: 1px solid #e6e6e6;
 }
 
@@ -24,6 +24,23 @@
 
 .table-wrapper {
   max-width: 100%;
+}
+
+footer img {
+  height: 24px;
+}
+
+footer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 @media screen and (max-width: 800px) {
