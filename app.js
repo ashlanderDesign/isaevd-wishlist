@@ -1,4 +1,5 @@
 let showReceived = false;
+let showMobileSearch = false;
 let search = "";
 let jsonData = [];
 let tableData = [];
@@ -8,15 +9,35 @@ const showReceivedToggle = document.getElementById("showReceivedToggle");
 const searchInput = document.getElementById("search-input");
 const toggleLight = document.getElementById("toggle-light");
 const toggleDark = document.getElementById("toggle-dark");
+const searchToggle = document.getElementById("mobile-search-toggle");
+const mobileSearch = document.getElementById("mobile-search");
+const mobileSearchInput = document.getElementById("mobile-search-input");
 
 showReceivedToggle.addEventListener("change", (event) => {
   showReceived = event.target.checked;
   fillTable();
 });
 
+searchToggle.addEventListener("click", (event) => {
+  event.preventDefault();
+  mobileSearch.classList.toggle("hidden");
+  mobileSearchInput.focus();
+});
+
 searchInput.addEventListener("input", (event) => {
   search = event.target.value;
   fillTable();
+});
+
+mobileSearchInput.addEventListener("input", (event) => {
+  search = event.target.value;
+  fillTable();
+});
+
+mobileSearchInput.addEventListener("focusout", (event) => {
+  if (event.target.value.length === 0) {
+    mobileSearch.classList.toggle("hidden");
+  }
 });
 
 toggleLight.addEventListener("click", (event) => {

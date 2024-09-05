@@ -60,8 +60,33 @@ html[data-theme="light"] .dark-only {
   display: none;
 }
 
+.mobile-search {
+  position: fixed;
+  bottom: 8px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#mobile-search-toggle {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   .table-wrapper {
     overflow-x: scroll;
+  }
+
+  #search-input {
+    display: none;
+  }
+
+  #mobile-search-toggle {
+    display: inline;
   }
 }
