@@ -4,12 +4,12 @@
     "priority": 10,
     "tags": ["Техника"],
     "price": 70000,
-    "link": "https://www.dns-shop.ru/product/734f8ff2fbb8bfcd/61-smartfon-samsung-galaxy-s23-256-gb-cernyj/",
+    "link": "https://biggeek.ru/products/smartfon-samsung-galaxy-s23-8-gb-256-gb-cernyj-fantom-phantom-black",
     "isReceived": false
   },
   {
     "name": "Apple AirPods 2 USB-C",
-    "priority": 9,
+    "priority": 6,
     "tags": ["Техника"],
     "price": 21000,
     "link": "https://biggeek.ru/products/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c",
@@ -33,26 +33,34 @@
   },
   {
     "name": "Карты заклинаний: Мистическая магия",
-    "priority": 8,
+    "priority": 6,
     "tags": ["Для D&D"],
     "price": 2490,
     "link": "https://hobbygames.ru/dungeons-and-dragons-karti-zaklinanij-misticheskaja-magija",
     "isReceived": false
   },
   {
-    "name": "Nintendo Switch rev.2 (под прошивку)",
-    "priority": 8,
+    "name": "Steam Deck",
+    "priority": 9,
     "tags": ["Техника", "Для игр"],
-    "price": 25000,
-    "link": "https://market.yandex.ru/cc/8EqhHRN",
+    "price": 55000,
+    "link": "https://market.yandex.ru/cc/rI9f9M8",
     "isReceived": false
   },
   {
-    "name": "Steam Deck",
+    "name": "Anycubic Photon Mono M5s Pro",
     "priority": 8,
-    "tags": ["Техника", "Для игр"],
-    "price": 60000,
-    "link": "https://market.yandex.ru/cc/tzUdOp2",
+    "tags": ["Техника", "3D-печать"],
+    "price": 57000,
+    "link": "https://www.dns-shop.ru/product/95e8e22d27a5d582/3d-printer-anycubic-photon-mono-m5s-pro/",
+    "isReceived": false
+  },
+  {
+    "name": "Дрель-шуруповерт Xiaomi 12V Max Brushless Cordless Drill",
+    "priority": 9,
+    "tags": ["Техника", "Инструменты"],
+    "price": 11500,
+    "link": "https://www.dns-shop.ru/product/4cf1e326f36ded20/drel-surupovert-xiaomi-12v-max-brushless-cordless-drill/",
     "isReceived": false
   },
   {
@@ -67,56 +75,40 @@
     "name": "Рюкзак XD Design Bobby Hero Regular",
     "priority": 7,
     "tags": ["Аксессуары"],
-    "price": 18000,
-    "link": "https://re-store.ru/catalog/P705.291/",
+    "price": 13000,
+    "link": "https://re-store.ru/catalog/P705-295/",
+    "isReceived": false
+  },
+  {
+    "name": "Мышь Logitech G PRO Wireless",
+    "priority": 7,
+    "tags": ["Комплектующие для ПК"],
+    "price": 10000,
+    "link": "https://www.dns-shop.ru/product/6cb0c6a7f781ed20/mys-besprovodnaaprovodnaa-logitech-g-pro-wireless-910-005272-cernyj/",
     "isReceived": false
   },
   {
     "name": "Умная колонка Яндекс Станция Макс с Zigbee",
     "priority": 7,
     "tags": ["Техника", "Умный дом"],
-    "price": 34000,
-    "link": "https://market.yandex.ru/cc/N6sAwr2",
-    "isReceived": false
-  },
-  {
-    "name": "Apple Watch SE 2022 44mm",
-    "priority": 6,
-    "tags": ["Техника"],
-    "price": 32000,
-    "link": "https://www.dns-shop.ru/product/e682c4eb3014ed20/smart-casy-apple-watch-se-2022-44mm/",
+    "price": 30000,
+    "link": "https://market.yandex.ru/cc/lNNuqt5",
     "isReceived": false
   },
   {
     "name": "Microsoft Xbox Series X",
-    "priority": 6,
+    "priority": 8,
     "tags": ["Техника", "Для игр"],
-    "price": 55000,
+    "price": 60000,
     "link": "https://www.dns-shop.ru/product/de3881f3d7dfed20/igrovaa-konsol-microsoft-xbox-series-x/",
     "isReceived": false
   },
   {
     "name": "Sony Playstation 5",
-    "priority": 6,
+    "priority": 8,
     "tags": ["Техника", "Для игр"],
     "price": 60000,
-    "link": "https://www.dns-shop.ru/product/9006a22a3888ed20/igrovaa-konsol-playstation-5/",
-    "isReceived": false
-  },
-  {
-    "name": "Руль ThrustMaster T150 Force Feedback",
-    "priority": 6,
-    "tags": ["Техника", "Для игр"],
-    "price": 27000,
-    "link": "https://www.dns-shop.ru/product/a9f6cf522df93330/rul-thrustmaster-t150-force-feedback-cernyj/",
-    "isReceived": false
-  },
-  {
-    "name": "[4X] be quiet! SILENT WINGS PRO 4 PWM",
-    "priority": 6,
-    "tags": ["Комплектующие для ПК"],
-    "price": 18000,
-    "link": "https://www.dns-shop.ru/product/369b4ae9010ded20/ventilator-be-quiet-silent-wings-pro-4-pwm-bl098/",
+    "link": "https://www.dns-shop.ru/product/b798dfc702d1d9cb/igrovaa-konsol-playstation-5/",
     "isReceived": false
   },
   {
