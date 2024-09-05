@@ -1,0 +1,23 @@
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.badge-received {
+  padding: 2px 8px;
+  margin-right: 8px;
+  border-radius: 32px;
+  background-color: #51da01;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  font-weight: 600;
+}

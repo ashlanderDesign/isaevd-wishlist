@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.slate.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Wishlist</title>
+  </head>
+  <body class="container-fluid">
+    <nav class="header">
+      <ul>
+        <li class="title">Вишлист</li>
+      </ul>
+      <ul>
+        <li>
+          <input
+            type="search"
+            name="search"
+            id="search-input"
+            placeholder="Найти..."
+          />
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <form>
+        <label>
+          <input
+            name="showReceived"
+            type="checkbox"
+            role="switch"
+            id="showReceivedToggle"
+          />
+          Показать полученные
+        </label>
+      </form>
+      <table class="striped">
+        <thead>
+          <tr>
+            <th>Приоритет</th>
+            <th>Название</th>
+            <th>Теги</th>
+            <th>Стоимость</th>
+            <th>Ссылка</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
