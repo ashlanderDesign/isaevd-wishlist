@@ -55,7 +55,10 @@ function fillTable() {
     const item = data[index];
     tableBody.innerHTML += `
     <tr data-index="${index}">
-      <td><progress value="${item.priority}" max="10" /></td>
+      <td><progress class="priority-progress" value="${
+        item.priority
+      }" max="10" title="${item.priority} из 10"/>
+      </td>
       <td>${
         item.isReceived ? "<span class='badge-received'>Получено</span>" : ""
       }${item.name}</td>

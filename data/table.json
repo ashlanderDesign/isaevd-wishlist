@@ -11,16 +11,16 @@
     "name": "Apple AirPods 2 USB-C",
     "priority": 9,
     "tags": ["Техника"],
-    "price": 25000,
+    "price": 21000,
     "link": "https://biggeek.ru/products/apple-airpods-pro-2nd-generation-with-magsafe-charging-case-usb-c",
     "isReceived": false
   },
   {
-    "name": "Apple Macbook Pro 13” 2020",
+    "name": "Apple MacBook Pro 14 M3 8/512GB",
     "priority": 8,
     "tags": ["Техника"],
-    "price": 140000,
-    "link": "https://biggeek.ru/products/apple-macbook-pro-13-retina-touch-bar-myd92-space-gray-m1-8gb-512gb",
+    "price": 170000,
+    "link": "https://biggeek.ru/products/apple-macbook-pro-14-mtl73-space-gray-m3-8-core-gpu-10-core-8gb-512gb",
     "isReceived": false
   },
   {
@@ -56,19 +56,11 @@
     "isReceived": false
   },
   {
-    "name": "Геймпад от Xbox Series или Xbox One",
+    "name": "Геймпад Flydigi Vader 3 Pro",
     "priority": 7,
     "tags": ["Техника", "Для игр"],
-    "price": 7000,
-    "link": "https://www.dns-shop.ru/product/65d563fd065aed20/gejmpad-besprovodnoj-microsoft-xbox-wireless-controller-cernyj/",
-    "isReceived": false
-  },
-  {
-    "name": "Геймпад 8BitDo Ultimate 2.4G",
-    "priority": 7,
-    "tags": ["Техника", "Для игр"],
-    "price": 4000,
-    "link": "https://www.dns-shop.ru/product/ef99e8663235ed20/gejmpad-besprovodnojprovodnoj-8bitdo-ultimate-24g-cernyj/",
+    "price": 5600,
+    "link": "https://ozon.ru/t/lY2ZlMk",
     "isReceived": false
   },
   {
