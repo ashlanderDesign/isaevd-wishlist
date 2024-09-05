@@ -7,14 +7,22 @@
   position: sticky;
   top: 0;
   background-color: var(--pico-card-background-color);
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid var(--pico-table-border-color);
+}
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .badge-received {
   padding: 2px 8px;
   margin-right: 8px;
   border-radius: 32px;
-  background-color: #51da01;
+  background-color: var(--pico-color);
+  color: var(--pico-background-color);
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -41,6 +49,14 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 8px;
+}
+
+html[data-theme="dark"] .light-only {
+  display: none;
+}
+
+html[data-theme="light"] .dark-only {
+  display: none;
 }
 
 @media screen and (max-width: 800px) {

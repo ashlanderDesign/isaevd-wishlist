@@ -6,6 +6,8 @@ let tableData = [];
 const tableBody = document.getElementById("table-body");
 const showReceivedToggle = document.getElementById("showReceivedToggle");
 const searchInput = document.getElementById("search-input");
+const toggleLight = document.getElementById("toggle-light");
+const toggleDark = document.getElementById("toggle-dark");
 
 showReceivedToggle.addEventListener("change", (event) => {
   showReceived = event.target.checked;
@@ -15,6 +17,16 @@ showReceivedToggle.addEventListener("change", (event) => {
 searchInput.addEventListener("input", (event) => {
   search = event.target.value;
   fillTable();
+});
+
+toggleLight.addEventListener("click", (event) => {
+  event.preventDefault();
+  document.getElementsByTagName("html")[0].dataset.theme = "dark";
+});
+
+toggleDark.addEventListener("click", (event) => {
+  event.preventDefault();
+  document.getElementsByTagName("html")[0].dataset.theme = "light";
 });
 
 function getJsonData() {
