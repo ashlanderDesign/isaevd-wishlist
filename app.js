@@ -48,7 +48,7 @@ function fillTable() {
         item.isReceived ? "<span class='badge-received'>Получено</span>" : ""
       }${item.name}</td>
       <td>${item.tags.join(", ")}</td>
-      <td>₽${item.price}</td>
+      <td>₽${item.price.toLocaleString("en-GB", { timeZone: "UTC" })}</td>
       <td><a href="${item.link}" target="_blank">${item.link}</a></td>
     </tr>
     `;

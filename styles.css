@@ -21,3 +21,13 @@
   font-size: 0.7rem;
   font-weight: 600;
 }
+
+.table-wrapper {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .table-wrapper {
+    overflow-x: scroll;
+  }
+}
