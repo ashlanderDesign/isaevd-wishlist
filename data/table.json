@@ -9,7 +9,7 @@
   },
   {
     "name": "Sony WH-1000XM4",
-    "priority": 8,
+    "priority": 9,
     "tags": ["Техника"],
     "price": 23000,
     "link": "https://biggeek.ru/products/besprovodnye-nausniki-sony-wh-1000xm4#tsvet-chyornyj-|-black",
@@ -40,11 +40,11 @@
     "isReceived": false
   },
   {
-    "name": "Steam Deck",
+    "name": "Valve Steam Deck OLED 512Gb",
     "priority": 9,
     "tags": ["Техника", "Для игр"],
-    "price": 55000,
-    "link": "https://market.yandex.ru/cc/rI9f9M8",
+    "price": 60000,
+    "link": "https://biggeek.ru/products/valve-steam-deck-oled-512gb",
     "isReceived": false
   },
   {
