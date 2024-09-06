@@ -74,16 +74,20 @@ function fillTable() {
 
   for (let index = 0; index < data.length; index++) {
     const item = data[index];
+    let tagsMarkup = "";
+    for (const tag of item.tags) {
+      tagsMarkup += `<span class='badge'>${tag}</span>`;
+    }
     tableBody.innerHTML += `
     <tr data-index="${index}">
       <td><progress class="priority-progress" value="${
         item.priority
       }" max="10" title="${item.priority} из 10"/>
       </td>
-      <td>${
-        item.isReceived ? "<span class='badge-received'>Получено</span>" : ""
-      }${item.name}</td>
-      <td>${item.tags.join(", ")}</td>
+      <td>${item.isReceived ? "<span class='badge'>Получено</span>" : ""}${
+      item.name
+    }</td>
+      <td>${tagsMarkup}</td>
       <td>₽${item.price.toLocaleString("en-GB", { timeZone: "UTC" })}</td>
       <td><a href="${item.link}" target="_blank">${item.link}</a></td>
     </tr>

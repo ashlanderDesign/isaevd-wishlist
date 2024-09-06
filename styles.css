@@ -18,8 +18,8 @@
   cursor: pointer;
 }
 
-.badge-received {
-  padding: 2px 8px;
+.badge {
+  padding: 2px 10px;
   margin-right: 8px;
   border-radius: 32px;
   background-color: var(--pico-color);
@@ -29,6 +29,7 @@
   align-items: center;
   font-size: 0.7rem;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .table-wrapper {
