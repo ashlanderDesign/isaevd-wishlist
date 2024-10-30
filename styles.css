@@ -18,6 +18,10 @@
   cursor: pointer;
 }
 
+.other-wishlists {
+  color: var(--pico-color);
+}
+
 .badge {
   padding: 2px 10px;
   margin-right: 8px;
