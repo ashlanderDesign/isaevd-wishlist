@@ -5,6 +5,7 @@ let jsonData = [];
 let tableData = [];
 
 const tableBody = document.getElementById("table-body");
+const tableFooter = document.getElementById("table-footer");
 const showReceivedToggle = document.getElementById("showReceivedToggle");
 const searchInput = document.getElementById("search-input");
 const toggleLight = document.getElementById("toggle-light");
@@ -93,6 +94,22 @@ function fillTable() {
     </tr>
     `;
   }
+
+  const priceSum = data.reduce((a, b) => {
+    console.log(a, b);
+    return a + b.price;
+  }, 0);
+
+  const footerRow = `
+  <tr>
+    <th>Итого</th>
+    <th>Позиций: ${data.length}</th>
+    <th></th>
+    <th>₽${priceSum.toLocaleString("en-GB", { timeZone: "UTC" })}</th>
+    <th></th>
+  </tr>`;
+
+  tableFooter.innerHTML = footerRow;
 }
 
 getJsonData();
