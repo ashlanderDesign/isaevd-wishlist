@@ -63,49 +63,47 @@ function getJsonData() {
 function fillTable() {
   tableBody.innerHTML = "";
   const data = jsonData
-    .filter((x) => {
-      // (showReceived ? true : x.isReceived === false)
-      let byReceived = showReceived ? true : x.isReceived === false;
-      let bySearch =
-        search.length > 0 ? x.name.toLowerCase().includes(search) : true;
-
-      return byReceived && bySearch;
-    })
+    .filter(
+      (x) =>
+        (showReceived || !x.isReceived) &&
+        (!search || x.name.toLowerCase().includes(search.toLowerCase()))
+    )
     .sort((a, b) => b.priority - a.priority || b.price - a.price);
 
-  for (let index = 0; index < data.length; index++) {
-    const item = data[index];
-    let tagsMarkup = "";
-    for (const tag of item.tags) {
-      tagsMarkup += `<span class='badge'>${tag}</span>`;
-    }
+  data.forEach((item, index) => {
+    const tagsMarkup = item.tags
+      .map((tag) => `<span class='badge'>${tag}</span>`)
+      .join("");
+
     tableBody.innerHTML += `
-    <tr data-index="${index}">
-      <td><progress class="priority-progress" value="${
-        item.priority
-      }" max="10" title="${item.priority} из 10"/>
-      </td>
-      <td>${item.isReceived ? "<span class='badge'>Получено</span>" : ""}${
+        <tr data-index="${index}">
+          <td><progress class="priority-progress" value="${
+            item.priority
+          }" max="10" title="${item.priority} из 10"/></td>
+          <td>${item.isReceived ? '<span class="badge">Получено</span>' : ""}${
       item.name
     }</td>
-      <td>${tagsMarkup}</td>
-      <td>₽${item.price.toLocaleString("en-GB", { timeZone: "UTC" })}</td>
-      <td><a href="${item.link}" target="_blank">${item.link}</a></td>
-    </tr>
-    `;
-  }
+          <td>${tagsMarkup}</td>
+          <td>${item.price.toLocaleString("ru-RU", {
+            style: "currency",
+            currency: "RUB",
+          })}</td>
+          <td><a href="${item.link}" target="_blank">${item.link}</a></td>
+        </tr>
+      `;
+  });
 
-  const priceSum = data.reduce((a, b) => {
-    console.log(a, b);
-    return a + b.price;
-  }, 0);
+  const priceSum = data.reduce((sum, item) => sum + item.price, 0);
 
   const footerRow = `
   <tr>
     <th>Итого</th>
     <th>Позиций: ${data.length}</th>
     <th></th>
-    <th>₽${priceSum.toLocaleString("en-GB", { timeZone: "UTC" })}</th>
+    <th>${priceSum.toLocaleString("ru-RU", {
+      style: "currency",
+      currency: "RUB",
+    })}</th>
     <th></th>
   </tr>`;
 
