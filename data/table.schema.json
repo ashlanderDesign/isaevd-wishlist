@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Product",
+  "description": "Описание товара",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "Название товара"
+      },
+      "priority": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 10,
+        "description": "Приоритет товара"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Теги товара"
+      },
+      "price": {
+        "type": "number",
+        "minimum": 0,
+        "description": "Цена товара"
+      },
+      "link": {
+        "type": "string",
+        "format": "uri",
+        "description": "Ссылка на товар"
+      },
+      "isReceived": {
+        "type": "boolean",
+        "description": "Получен ли товар"
+      }
+    },
+    "required": ["name", "priority", "tags", "price", "link", "isReceived"]
+  }
+}
