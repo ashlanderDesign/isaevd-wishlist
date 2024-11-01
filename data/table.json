@@ -16,6 +16,14 @@
     "isReceived": false
   },
   {
+    "name": "Сумка для ноутбука RIVACASE 8930 Black",
+    "priority": 9,
+    "tags": ["Аксессуары"],
+    "price": 4000,
+    "link": "https://ozon.ru/t/qqex5eV",
+    "isReceived": false
+  },
+  {
     "name": "Apple MacBook Air 13\" M2 16/512GB",
     "priority": 8,
     "tags": ["Техника"],
@@ -56,6 +64,14 @@
     "isReceived": false
   },
   {
+    "name": "Чехлы KIWI design для контроллеров Oculus Quest 2",
+    "priority": 8,
+    "tags": ["Аксессуары", "Для игр"],
+    "price": 8000,
+    "link": "https://market.yandex.ru/cc/AQO5A3Z",
+    "isReceived": false
+  },
+  {
     "name": "Дрель-шуруповерт Xiaomi 12V Max Brushless Cordless Drill",
     "priority": 9,
     "tags": ["Техника", "Инструменты"],
@@ -69,6 +85,14 @@
     "tags": ["Техника", "Для игр"],
     "price": 7000,
     "link": "https://ozon.ru/t/lY2ZlMk",
+    "isReceived": false
+  },
+  {
+    "name": "Аэрогриль Xiaomi Smart Air Fryer 3.5L",
+    "priority": 7,
+    "tags": ["Техника", "Для дома"],
+    "price": 9000,
+    "link": "https://market.yandex.ru/cc/oClx0K1",
     "isReceived": false
   },
   {
