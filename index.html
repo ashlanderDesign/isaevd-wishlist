@@ -26,7 +26,7 @@
       />
     </div>
     <nav class="container-fluid header">
-      <ul>
+      <ul class="nav-left">
         <li class="title">
           <svg
             width="117"
@@ -54,7 +54,17 @@
           </svg>
         </li>
       </ul>
-      <ul>
+      <ul class="nav-center">
+        <li>
+          <input
+            type="search"
+            name="search"
+            id="search-input"
+            placeholder="Найти..."
+          />
+        </li>
+      </ul>
+      <ul class="nav-right">
         <li>
           <a
             data-tooltip="Вишлист Steam"
@@ -135,12 +145,6 @@
           </a>
         </li>
         <li>
-          <input
-            type="search"
-            name="search"
-            id="search-input"
-            placeholder="Найти..."
-          />
           <a id="mobile-search-toggle"
             ><svg
               xmlns="http://www.w3.org/2000/svg"

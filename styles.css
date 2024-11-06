@@ -82,6 +82,25 @@ html[data-theme="light"] .dark-only {
   display: none;
 }
 
+@media screen and (min-width: 800px) {
+  .nav-center {
+    flex: 2;
+  }
+
+  .nav-left {
+    flex: 1;
+  }
+
+  .nav-right {
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  .nav-center > li {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .table-wrapper {
     overflow-x: scroll;
