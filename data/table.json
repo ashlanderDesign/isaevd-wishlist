@@ -24,6 +24,46 @@
     "isReceived": false
   },
   {
+    "name": "SSD M.2 Samsung 990 PRO 2TB",
+    "priority": 8,
+    "tags": ["Комплектующие для ПК"],
+    "price": 28000,
+    "link": "https://www.dns-shop.ru/product/233e2dc3de8fed20/2000-gb-ssd-m2-nakopitel-samsung-990-pro-mz-v9p2t0bw/",
+    "isReceived": false
+  },
+  {
+    "name": "SSD M.2 Samsung PM9A1 512GB",
+    "priority": 8,
+    "tags": ["Комплектующие для ПК"],
+    "price": 8000,
+    "link": "https://www.dns-shop.ru/product/44cacab1e4dced20/512-gb-ssd-m2-nakopitel-samsung-pm9a1-mzvl2512hcjq-00b00/",
+    "isReceived": false
+  },
+  {
+    "name": "Мат. плата GIGABYTE B550 AORUS ELITE AX V2",
+    "priority": 8,
+    "tags": ["Комплектующие для ПК"],
+    "price": 19599,
+    "link": "https://www.dns-shop.ru/product/9b72faa0e5d93332/materinskaa-plata-gigabyte-b550-aorus-elite-ax-v2/",
+    "isReceived": false
+  },
+  {
+    "name": "Процессор AMD Ryzen 7 5700X3D",
+    "priority": 8,
+    "tags": ["Комплектующие для ПК"],
+    "price": 22000,
+    "link": "https://www.dns-shop.ru/product/f2c7468da491ed20/processor-amd-ryzen-7-5700x3d-oem/",
+    "isReceived": false
+  },
+  {
+    "name": "Корпус Cougar PANZER MAX-G",
+    "priority": 8,
+    "tags": ["Комплектующие для ПК"],
+    "price": 17000,
+    "link": "https://www.dns-shop.ru/product/6ff7cdeeea421b80/korpus-cougar-panzer-max-g-106amk0015-00-cernyj/",
+    "isReceived": false
+  },
+  {
     "name": "Apple MacBook Air 13\" M2 16/512GB",
     "priority": 8,
     "tags": ["Техника"],
@@ -57,7 +97,7 @@
   },
   {
     "name": "Anycubic Photon Mono M5s Pro",
-    "priority": 8,
+    "priority": 6,
     "tags": ["Техника", "3D-печать"],
     "price": 57000,
     "link": "https://www.dns-shop.ru/product/95e8e22d27a5d582/3d-printer-anycubic-photon-mono-m5s-pro/",
@@ -65,7 +105,7 @@
   },
   {
     "name": "Чехлы KIWI design для контроллеров Oculus Quest 2",
-    "priority": 8,
+    "priority": 9,
     "tags": ["Аксессуары", "Для игр"],
     "price": 8000,
     "link": "https://market.yandex.ru/cc/AQO5A3Z",
@@ -137,7 +177,7 @@
   },
   {
     "name": "Монитор Samsung S27AG520PI",
-    "priority": 5,
+    "priority": 8,
     "tags": ["Техника"],
     "price": 30000,
     "link": "https://www.dns-shop.ru/product/1b4d4dbfade8ed20/27-monitor-samsung-s27ag520pi-cernyj/",
