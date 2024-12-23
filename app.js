@@ -2,9 +2,12 @@ let showReceived = false;
 let showMobileSearch = false;
 let search = "";
 let jsonData = [];
-let tableData = [];
+let jsonGroups = [];
+let activeGroup = "general";
 
 const tableBody = document.getElementById("table-body");
+const groupsBody = document.getElementById("groups");
+const groupDescrBody = document.getElementById("group-description");
 const tableFooter = document.getElementById("table-footer");
 const showReceivedToggle = document.getElementById("showReceivedToggle");
 const searchInput = document.getElementById("search-input");
@@ -58,6 +61,34 @@ function getJsonData() {
       jsonData = data;
       fillTable();
     });
+
+  fetch("./data/groups.json")
+    .then((res) => res.json())
+    .then((data) => {
+      jsonGroups = data;
+      fillGroups();
+    });
+}
+
+function fillGroups() {
+  groupsBody.innerHTML = "";
+
+  jsonGroups.forEach((item) => {
+    const button = document.createElement("button");
+    if (item.name !== activeGroup) {
+      button.classList.add("outline", "secondary");
+    } else {
+      groupDescrBody.innerText = item.description;
+    }
+    const text = document.createTextNode(item.title);
+    button.appendChild(text);
+    button.addEventListener("click", (e) => {
+      activeGroup = item.name;
+      fillGroups();
+      fillTable();
+    });
+    groupsBody.appendChild(button);
+  });
 }
 
 function fillTable() {
@@ -66,7 +97,8 @@ function fillTable() {
     .filter(
       (x) =>
         (showReceived || !x.isReceived) &&
-        (!search || x.name.toLowerCase().includes(search.toLowerCase()))
+        (!search || x.name.toLowerCase().includes(search.toLowerCase())) &&
+        x.groups.includes(activeGroup)
     )
     .sort((a, b) => b.priority - a.priority || b.price - a.price);
 

@@ -11,6 +11,21 @@
   border-bottom: 1px solid var(--pico-table-border-color);
 }
 
+.groups {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  margin: 16px 0;
+  overflow-x: auto;
+  width: 100%;
+  white-space: nowrap;
+}
+
+#group-description {
+  margin-bottom: 16px;
+}
+
 .theme-toggle {
   display: flex;
   align-items: center;

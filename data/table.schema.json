@@ -36,6 +36,12 @@
       "isReceived": {
         "type": "boolean",
         "description": "Получен ли товар"
+      },
+      "group": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
       }
     },
     "required": ["name", "priority", "tags", "price", "link", "isReceived"]

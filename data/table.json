@@ -5,7 +5,8 @@
     "tags": ["Техника"],
     "price": 60000,
     "link": "https://www.dns-shop.ru/product/f64bd2c021eced20/67-smartfon-nothing-phone-2-512-gb-seryj/",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Sony WH-1000XM4",
@@ -13,7 +14,8 @@
     "tags": ["Техника"],
     "price": 23000,
     "link": "https://biggeek.ru/products/besprovodnye-nausniki-sony-wh-1000xm4#tsvet-chyornyj-|-black",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Сумка для ноутбука RIVACASE 8930 Black",
@@ -21,7 +23,8 @@
     "tags": ["Аксессуары"],
     "price": 4000,
     "link": "https://ozon.ru/t/qqex5eV",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "SSD M.2 Samsung 990 PRO 2TB",
@@ -29,7 +32,8 @@
     "tags": ["Комплектующие для ПК"],
     "price": 28000,
     "link": "https://www.dns-shop.ru/product/233e2dc3de8fed20/2000-gb-ssd-m2-nakopitel-samsung-990-pro-mz-v9p2t0bw/",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "SSD M.2 Samsung PM9A1 512GB",
@@ -37,7 +41,8 @@
     "tags": ["Комплектующие для ПК"],
     "price": 8000,
     "link": "https://www.dns-shop.ru/product/44cacab1e4dced20/512-gb-ssd-m2-nakopitel-samsung-pm9a1-mzvl2512hcjq-00b00/",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Мат. плата GIGABYTE B550 AORUS ELITE AX V2",
@@ -45,7 +50,8 @@
     "tags": ["Комплектующие для ПК"],
     "price": 19599,
     "link": "https://www.dns-shop.ru/product/9b72faa0e5d93332/materinskaa-plata-gigabyte-b550-aorus-elite-ax-v2/",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Процессор AMD Ryzen 7 5700X3D",
@@ -53,7 +59,8 @@
     "tags": ["Комплектующие для ПК"],
     "price": 22000,
     "link": "https://www.dns-shop.ru/product/f2c7468da491ed20/processor-amd-ryzen-7-5700x3d-oem/",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Корпус Cougar PANZER MAX-G",
@@ -61,7 +68,8 @@
     "tags": ["Комплектующие для ПК"],
     "price": 17000,
     "link": "https://www.dns-shop.ru/product/6ff7cdeeea421b80/korpus-cougar-panzer-max-g-106amk0015-00-cernyj/",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Apple MacBook Air 13\" M2 16/512GB",
@@ -69,7 +77,8 @@
     "tags": ["Техника"],
     "price": 175000,
     "link": "https://re-store.ru/catalog/Z16000A4H/",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Книга игрока D&D",
@@ -77,7 +86,8 @@
     "tags": ["Книги", "Для D&D"],
     "price": 4490,
     "link": "https://hobbygames.ru/dungeons-and-dragons-kniga-igroka",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Карты заклинаний: Мистическая магия",
@@ -85,7 +95,8 @@
     "tags": ["Для D&D"],
     "price": 2490,
     "link": "https://hobbygames.ru/dungeons-and-dragons-karti-zaklinanij-misticheskaja-magija",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Valve Steam Deck OLED 512Gb",
@@ -93,7 +104,8 @@
     "tags": ["Техника", "Для игр"],
     "price": 70000,
     "link": "https://biggeek.ru/products/valve-steam-deck-oled-512gb",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Anycubic Photon Mono M5s Pro",
@@ -101,7 +113,8 @@
     "tags": ["Техника", "3D-печать"],
     "price": 57000,
     "link": "https://www.dns-shop.ru/product/95e8e22d27a5d582/3d-printer-anycubic-photon-mono-m5s-pro/",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Чехлы KIWI design для контроллеров Oculus Quest 2",
@@ -109,7 +122,8 @@
     "tags": ["Аксессуары", "Для игр"],
     "price": 8000,
     "link": "https://market.yandex.ru/cc/AQO5A3Z",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Дрель-шуруповерт Xiaomi 12V Max Brushless Cordless Drill",
@@ -117,7 +131,8 @@
     "tags": ["Техника", "Инструменты"],
     "price": 11500,
     "link": "https://www.dns-shop.ru/product/4cf1e326f36ded20/drel-surupovert-xiaomi-12v-max-brushless-cordless-drill/",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Геймпад Flydigi Vader 3 Pro",
@@ -125,7 +140,8 @@
     "tags": ["Техника", "Для игр"],
     "price": 7000,
     "link": "https://ozon.ru/t/lY2ZlMk",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Аэрогриль Xiaomi Smart Air Fryer 3.5L",
@@ -133,7 +149,8 @@
     "tags": ["Техника", "Для дома"],
     "price": 9000,
     "link": "https://market.yandex.ru/cc/oClx0K1",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Рюкзак XD Design Bobby Hero Regular",
@@ -141,7 +158,8 @@
     "tags": ["Аксессуары"],
     "price": 13000,
     "link": "https://re-store.ru/catalog/P705-295/",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Мышь Logitech G PRO Wireless",
@@ -149,7 +167,8 @@
     "tags": ["Комплектующие для ПК"],
     "price": 10000,
     "link": "https://www.dns-shop.ru/product/6cb0c6a7f781ed20/mys-besprovodnaaprovodnaa-logitech-g-pro-wireless-910-005272-cernyj/",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Умная колонка Яндекс Станция Макс с Zigbee",
@@ -157,7 +176,8 @@
     "tags": ["Техника", "Умный дом"],
     "price": 35000,
     "link": "https://market.yandex.ru/cc/lNNuqt5",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Microsoft Xbox Series X",
@@ -165,7 +185,8 @@
     "tags": ["Техника", "Для игр"],
     "price": 60000,
     "link": "https://www.dns-shop.ru/product/de3881f3d7dfed20/igrovaa-konsol-microsoft-xbox-series-x/",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Sony Playstation 5",
@@ -173,7 +194,8 @@
     "tags": ["Техника", "Для игр"],
     "price": 60000,
     "link": "https://www.dns-shop.ru/product/b798dfc702d1d9cb/igrovaa-konsol-playstation-5/",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Монитор Samsung S27AG520PI",
@@ -181,7 +203,8 @@
     "tags": ["Техника"],
     "price": 30000,
     "link": "https://www.dns-shop.ru/product/1b4d4dbfade8ed20/27-monitor-samsung-s27ag520pi-cernyj/",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "Медиаплеер Apple TV 4K",
@@ -189,7 +212,8 @@
     "tags": ["Техника", "Умный дом"],
     "price": 22000,
     "link": "https://www.dns-shop.ru/product/16bbdc51600ced20/mediapleer-apple-tv-4k-mn893paa",
-    "isReceived": false
+    "isReceived": false,
+    "groups": ["general"]
   },
   {
     "name": "iPad Mini 2021 64Gb + Apple Pencil",
@@ -197,7 +221,8 @@
     "tags": ["Техника"],
     "price": 70000,
     "link": "https://www.dns-shop.ru/product/163be9b7dc01ed20/83-planset-apple-ipad-mini-2021-wi-fi-64-gb-seryj",
-    "isReceived": true
+    "isReceived": true,
+    "groups": ["general"]
   },
   {
     "name": "A-Data XPG GAMMIX D20 (32GB)",
@@ -205,7 +230,8 @@
     "tags": ["Комплектующие для ПК"],
     "price": 7000,
     "link": "https://www.dns-shop.ru/product/028eddb6ea99d763/operativnaa-pamat-a-data-xpg-gammix-d20-ax4u320016g16a-dcbk20-32-gb/",
-    "isReceived": true
+    "isReceived": true,
+    "groups": ["general"]
   },
   {
     "name": "NVIDIA GeForce RTX 4060 Ti 16GB",
@@ -213,7 +239,8 @@
     "tags": ["Комплектующие для ПК"],
     "price": 52000,
     "link": "https://www.dns-shop.ru/product/67540c757e24ed20/videokarta-gigabyte-geforce-rtx-4060-ti-windforce-oc-gv-n406twf2oc-16gd",
-    "isReceived": true
+    "isReceived": true,
+    "groups": ["general"]
   },
   {
     "name": "Meta Quest 2",
@@ -221,7 +248,8 @@
     "tags": ["Техника", "Для игр"],
     "price": 40000,
     "link": "https://www.dns-shop.ru/product/5fd76980e7a6ed20/sistema-virtualnoj-realnosti-oculus-quest-2-belyj/",
-    "isReceived": true
+    "isReceived": true,
+    "groups": ["general"]
   },
   {
     "name": "The Elder Scrolls V: Skyrim VR",
@@ -229,7 +257,8 @@
     "tags": ["Видеоигры"],
     "price": 1500,
     "link": "https://store.steampowered.com/app/611670/",
-    "isReceived": true
+    "isReceived": true,
+    "groups": ["general"]
   },
   {
     "name": "AMD Ryzen 5 5500",
@@ -237,7 +266,8 @@
     "tags": ["Комплектующие для ПК"],
     "price": 8000,
     "link": "https://www.dns-shop.ru/product/2779e1d6afeced20/processor-amd-ryzen-5-5500-oem/",
-    "isReceived": true
+    "isReceived": true,
+    "groups": ["general"]
   },
   {
     "name": "Книга мастера D&D",
@@ -245,7 +275,8 @@
     "tags": ["Книги", "Для D&D"],
     "price": 4490,
     "link": "https://hobbygames.ru/dungeons-andamp-dragons-rukovodstvo-mastera-podzemelij",
-    "isReceived": true
+    "isReceived": true,
+    "groups": ["general"]
   },
   {
     "name": "Графический планшет",
@@ -253,7 +284,8 @@
     "tags": ["Техника", "Для рисования"],
     "price": 6000,
     "link": "https://www.dns-shop.ru/product/621b21ec50a7ed20/graficeskij-planset-wacom-one-by-wacom-2-medium/",
-    "isReceived": true
+    "isReceived": true,
+    "groups": ["general"]
   },
   {
     "name": "Крепление для мониторов ONKRON G200",
@@ -261,7 +293,8 @@
     "tags": ["Техника"],
     "price": 11500,
     "link": "https://www.dns-shop.ru/product/c2f0d326f8dec823/kreplenie-dla-monitorov-onkron-g200/",
-    "isReceived": true
+    "isReceived": true,
+    "groups": ["general"]
   },
   {
     "name": "Игровой движок. Программирование и внутреннее устройство",
@@ -269,7 +302,8 @@
     "tags": ["Книги"],
     "price": 5000,
     "link": "https://www.chitai-gorod.ru/product/igrovoy-dvizhok-programmirovanie-i-vnutrennee-ustroystvo-2825633",
-    "isReceived": true
+    "isReceived": true,
+    "groups": ["general"]
   },
   {
     "name": "Кресло игровое ZONE 51 ARENA PRO",
@@ -277,7 +311,8 @@
     "tags": ["Мебель"],
     "price": 17000,
     "link": "https://market.yandex.ru/cc/DET3M3o",
-    "isReceived": true
+    "isReceived": true,
+    "groups": ["general"]
   },
   {
     "name": "Redragon Dragonwarrior",
@@ -285,6 +320,25 @@
     "tags": ["Комплектующие для ПК"],
     "price": 7490,
     "link": "https://www.dns-shop.ru/product/073a812b9538ed20/klaviatura-besprovodnaa-provodnaa-redragon-dragonwarrior-70520/",
-    "isReceived": true
+    "isReceived": true,
+    "groups": ["general"]
+  },
+  {
+    "name": "Блинная сковородка для индукционных плит",
+    "priority": 10,
+    "tags": ["Для дома", "Посуда"],
+    "price": 1500,
+    "link": "https://ozon.ru/t/64AKkOg",
+    "isReceived": false,
+    "groups": ["newhouse"]
+  },
+  {
+    "name": "Подложки под тарелки",
+    "priority": 9,
+    "tags": ["Для дома", "Аксессуары"],
+    "price": 700,
+    "link": "https://ozon.ru/t/m6MdyYr",
+    "isReceived": false,
+    "groups": ["newhouse"]
   }
 ]
