@@ -349,5 +349,149 @@
     "link": "https://ozon.ru/t/8movA46",
     "isReceived": false,
     "groups": ["newhouse"]
+  },
+  {
+    "name": "Митио Каку. Физика невозможного",
+    "priority": 9,
+    "tags": ["Научно-популярная", "Физика"],
+    "price": 500,
+    "link": "https://www.chitai-gorod.ru/product/fizika-nevozmozhnogo-2650814",
+    "isReceived": false,
+    "groups": ["books"]
+  },
+  {
+    "name": "Митио Каку. Физика будущего",
+    "priority": 9,
+    "tags": ["Научно-популярная", "Физика"],
+    "price": 500,
+    "link": "https://www.chitai-gorod.ru/product/fizika-budushchego-2655181",
+    "isReceived": false,
+    "groups": ["books"]
+  },
+  {
+    "name": "Митио Каку. Гиперпространство",
+    "priority": 9,
+    "tags": ["Научно-популярная", "Физика"],
+    "price": 500,
+    "link": "https://www.chitai-gorod.ru/product/giperprostranstvo-nauchnaya-odisseya-cherez-parallelnye-miry-dyry-vo-vremeni-i-desyatoe-izmerenie-2679735",
+    "isReceived": false,
+    "groups": ["books"]
+  },
+  {
+    "name": "А. Семихатов. Всё, что движется: Прогулки по беспокойной Вселенной",
+    "priority": 10,
+    "tags": ["Научно-популярная", "Физика"],
+    "price": 1500,
+    "link": "https://www.chitai-gorod.ru/product/vse-chto-dvizhetsya-progulki-po-bespokoynoy-vselennoy-2945351",
+    "isReceived": false,
+    "groups": ["books"]
+  },
+  {
+    "name": "Р. Лейтон, М. Сэндс, Р. Фейнман. Фейнмановские лекции по физике, том I",
+    "priority": 10,
+    "tags": ["Научная", "Физика"],
+    "price": 1000,
+    "link": "https://www.chitai-gorod.ru/product/feynmanovskie-lekcii-po-fizike-t-i-1-2-2754351",
+    "isReceived": false,
+    "groups": ["books"]
+  },
+  {
+    "name": "Д. Дойч. Структура реальности",
+    "priority": 9,
+    "tags": ["Научно-популярная", "Физика"],
+    "price": 500,
+    "link": "https://www.chitai-gorod.ru/product/struktura-realnosti-nauka-parallelnyh-vselennyh-2668702",
+    "isReceived": false,
+    "groups": ["books"]
+  },
+  {
+    "name": "К. Саган. Мир, полный демонов: Наука - как свеча во тьме",
+    "priority": 8,
+    "tags": ["Научно-популярная", "Общенаучное"],
+    "price": 500,
+    "link": "https://www.chitai-gorod.ru/product/mir-polnyy-demonov-nauka-kak-svecha-vo-tme-2643585",
+    "isReceived": false,
+    "groups": ["books"]
+  },
+  {
+    "name": "М. Прайс. C# 10 и .NET 6. Современная кросс-платформенная разработка",
+    "priority": 8,
+    "tags": ["IT", "Программирование"],
+    "price": 3000,
+    "link": "https://www.piter.com/collection/all/product/c-10-i-net-6-sovremennaya-kross-platformennaya-razrabotka",
+    "isReceived": false,
+    "groups": ["books"]
+  },
+  {
+    "name": "М. Ричардс, Н. Форд. Фундаментальный подход к программной архитектуре: паттерны, свойства, проверенные методы",
+    "priority": 8,
+    "tags": ["IT", "Программирование"],
+    "price": 2000,
+    "link": "https://www.piter.com/collection/best/product/fundamentalnyy-podhod-k-programmnoy-arhitekture-patterny-svoystva-proverennye-metody-2",
+    "isReceived": false,
+    "groups": ["books"]
+  },
+  {
+    "name": "Р. Сапольски. Кто мы такие? Гены, наше тело, общество",
+    "priority": 8,
+    "tags": ["Научно-популярная", "Биология"],
+    "price": 500,
+    "link": "https://www.chitai-gorod.ru/product/kto-my-takie-geny-nashe-telo-obshchestvo-2820977",
+    "isReceived": false,
+    "groups": ["books"]
+  },
+  {
+    "name": "Ф. де Вааль. Достаточно ли мы умны, чтобы судить об уме животных?",
+    "priority": 8,
+    "tags": ["Научно-популярная", "Биология"],
+    "price": 500,
+    "link": "https://www.chitai-gorod.ru/product/dostatochno-li-my-umny-chtoby-sudit-ob-ume-zhivotnyh-2717972",
+    "isReceived": false,
+    "groups": ["books"]
+  },
+  {
+    "name": "К. Рапай. Культурный код. Как мы живем, что покупаем и почему",
+    "priority": 8,
+    "tags": ["Экономика", "Маркетинг"],
+    "price": 500,
+    "link": "https://www.chitai-gorod.ru/product/kulturnyy-kod-kak-my-zhivem-chto-pokupaem-i-pochemu-3041364",
+    "isReceived": false,
+    "groups": ["books"]
+  },
+  {
+    "name": "П. Буайе. Объясняя религию: Природа религиозного мышления",
+    "priority": 8,
+    "tags": ["Прочее", "Теология"],
+    "price": 500,
+    "link": "https://www.chitai-gorod.ru/product/obyasnyaya-religiyu-priroda-religioznogo-myshleniya-3055052",
+    "isReceived": false,
+    "groups": ["books"]
+  },
+  {
+    "name": "А. Пиперски. Конструирование языков: От эсперанто до дотракийского",
+    "priority": 8,
+    "tags": ["Гуманитарные науки", "Филология"],
+    "price": 500,
+    "link": "https://www.chitai-gorod.ru/product/konstruirovanie-yazykov-ot-esperanto-do-dotrakiyskogo-3056783",
+    "isReceived": false,
+    "groups": ["books"]
+  },
+  {
+    "name": "Д. Смит. Псевдонаука и паранормальные явления. Критический взгляд",
+    "priority": 8,
+    "tags": ["Научно-популярная", "Общенаучное"],
+    "price": 500,
+    "link": "https://www.chitai-gorod.ru/product/psevdonauka-i-paranormalnye-yavleniya-kriticheskiy-vzglyad-2703652",
+    "isReceived": false,
+    "groups": ["books"]
+  },
+  {
+    "name": "Д. Маркофф. Homo Roboticus? Люди и машины в поисках взаимопонимания",
+    "priority": 8,
+    "tags": ["Научно-популярная", "Информатика"],
+    "price": 500,
+    "link": "https://www.chitai-gorod.ru/product/homo-roboticus-lyudi-i-mashiny-v-poiskah-vzaimoponimaniya-2780862",
+    "isReceived": false,
+    "groups": ["books"]
   }
 ]
