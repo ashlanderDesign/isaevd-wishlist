@@ -340,5 +340,14 @@
     "link": "https://ozon.ru/t/m6MdyYr",
     "isReceived": false,
     "groups": ["newhouse"]
+  },
+  {
+    "name": "Набор для уборки (ведро с отжимом + швабра)",
+    "priority": 9,
+    "tags": ["Для дома", "Инструменты"],
+    "price": 1000,
+    "link": "https://ozon.ru/t/8movA46",
+    "isReceived": false,
+    "groups": ["newhouse"]
   }
 ]

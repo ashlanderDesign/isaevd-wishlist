@@ -80,8 +80,7 @@ function fillGroups() {
     } else {
       groupDescrBody.innerText = item.description;
     }
-    const text = document.createTextNode(item.title);
-    button.appendChild(text);
+    button.appendChild(text(item.title));
     button.addEventListener("click", (e) => {
       activeGroup = item.name;
       fillGroups();
@@ -140,6 +139,10 @@ function fillTable() {
   </tr>`;
 
   tableFooter.innerHTML = footerRow;
+}
+
+function text(value) {
+  return document.createTextNode(value);
 }
 
 getJsonData();
