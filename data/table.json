@@ -493,5 +493,32 @@
     "link": "https://www.chitai-gorod.ru/product/homo-roboticus-lyudi-i-mashiny-v-poiskah-vzaimoponimaniya-2780862",
     "isReceived": false,
     "groups": ["books"]
+  },
+  {
+    "name": "Набор баночек для хранения круп и подобного",
+    "priority": 8,
+    "tags": ["Для дома", "Хранение"],
+    "price": 700,
+    "link": "https://ozon.ru/t/wD7ggpG",
+    "isReceived": false,
+    "groups": ["newhouse"]
+  },
+  {
+    "name": "Коврики для туалета и ванны",
+    "priority": 8,
+    "tags": ["Для дома", "Уют"],
+    "price": 700,
+    "link": "https://ozon.ru/t/qa42zJE",
+    "isReceived": false,
+    "groups": ["newhouse"]
+  },
+  {
+    "name": "Набор суповых тарелок",
+    "priority": 9,
+    "tags": ["Для дома", "Посуда"],
+    "price": 1000,
+    "link": "https://ozon.ru/t/D9ZaarK",
+    "isReceived": false,
+    "groups": ["newhouse"]
   }
 ]
