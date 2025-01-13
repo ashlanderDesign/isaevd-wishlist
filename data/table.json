@@ -520,5 +520,41 @@
     "link": "https://ozon.ru/t/D9ZaarK",
     "isReceived": false,
     "groups": ["newhouse"]
+  },
+  {
+    "name": "Красивая кружка для Тани",
+    "priority": 9,
+    "tags": ["Для дома", "Посуда"],
+    "price": 500,
+    "link": "https://ozon.ru/t/z3dAVlR",
+    "isReceived": false,
+    "groups": ["newhouse"]
+  },
+  {
+    "name": "Полотенце большое махровое",
+    "priority": 7,
+    "tags": ["Для дома", "Аксессуары"],
+    "price": 1000,
+    "link": "https://ozon.ru/t/dxPbO35",
+    "isReceived": false,
+    "groups": ["newhouse"]
+  },
+  {
+    "name": "Набор кухонных полотенец",
+    "priority": 8,
+    "tags": ["Для дома", "Аксессуары"],
+    "price": 700,
+    "link": "https://ozon.ru/t/WQ9O2zV",
+    "isReceived": false,
+    "groups": ["newhouse"]
+  },
+  {
+    "name": "Набор рамок А4",
+    "priority": 8,
+    "tags": ["Для дома", "Аксессуары"],
+    "price": 1000,
+    "link": "https://ozon.ru/t/bmXWxPq",
+    "isReceived": false,
+    "groups": ["newhouse"]
   }
 ]
