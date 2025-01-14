@@ -70,6 +70,12 @@ function getJsonData() {
     });
 }
 
+function selectGroup(name) {
+  activeGroup = name;
+  fillGroups();
+  fillTable();
+}
+
 function fillGroups() {
   groupsBody.innerHTML = "";
 
@@ -82,9 +88,7 @@ function fillGroups() {
     }
     button.appendChild(text(item.title));
     button.addEventListener("click", (e) => {
-      activeGroup = item.name;
-      fillGroups();
-      fillTable();
+      selectGroup(item.name);
     });
     groupsBody.appendChild(button);
   });
@@ -144,5 +148,24 @@ function fillTable() {
 function text(value) {
   return document.createTextNode(value);
 }
+
+document.addEventListener("DOMContentLoaded", (e) => {
+  const path = window.location.hash;
+  console.log(path);
+  switch (path) {
+    case ("#general", ""):
+      selectGroup("general");
+      break;
+    case "#newhouse":
+      selectGroup("newhouse");
+      break;
+    case "#books":
+      selectGroup("books");
+      break;
+    default:
+      selectGroup("general");
+      break;
+  }
+});
 
 getJsonData();
