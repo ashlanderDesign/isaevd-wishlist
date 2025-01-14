@@ -72,6 +72,12 @@ function getJsonData() {
 
 function selectGroup(name) {
   activeGroup = name;
+
+  const path = window.location.hash;
+  if ("#" + name !== path) {
+    window.location.hash = "#" + name;
+  }
+
   fillGroups();
   fillTable();
 }
