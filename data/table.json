@@ -356,7 +356,7 @@
     "tags": ["Научно-популярная", "Физика"],
     "price": 500,
     "link": "https://www.chitai-gorod.ru/product/fizika-nevozmozhnogo-2650814",
-    "isReceived": false,
+    "isReceived": true,
     "groups": ["books"]
   },
   {
@@ -565,5 +565,32 @@
     "link": "https://www.dns-shop.ru/product/a8e254be4fded0a4/nausniki-tws-cmf-by-nothing-buds-pro-2-cernyj/",
     "isReceived": false,
     "groups": ["general"]
+  },
+  {
+    "name": "Intel i7-3770 (LGA1155)",
+    "priority": 10,
+    "tags": ["Техника", "Комплектующие для ПК"],
+    "price": 3000,
+    "link": "https://ozon.ru/t/BvdLrgb",
+    "isReceived": false,
+    "groups": ["nas"]
+  },
+  {
+    "name": "ОЗУ 2х8Гб 1600Mhz",
+    "priority": 10,
+    "tags": ["Техника", "Комплектующие для ПК"],
+    "price": 3000,
+    "link": "https://ozon.ru/t/9r6MrZV",
+    "isReceived": false,
+    "groups": ["nas"]
+  },
+  {
+    "name": "240 ГБ 2.5\" SATA накопитель ADATA SU650",
+    "priority": 10,
+    "tags": ["Техника", "Комплектующие для ПК"],
+    "price": 2000,
+    "link": "https://www.dns-shop.ru/product/991a2145e3e51b80/240-gb-25-sata-nakopitel-adata-su650-asu650ss-240gt-r/",
+    "isReceived": false,
+    "groups": ["nas"]
   }
 ]
