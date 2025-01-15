@@ -1,18 +1,18 @@
 [
   {
-    "name": "Nothing Phone 2 256Gb",
+    "name": "Nothing Phone 2a 128Gb",
     "priority": 10,
     "tags": ["Техника"],
-    "price": 60000,
-    "link": "https://www.dns-shop.ru/product/f64bd2c021eced20/67-smartfon-nothing-phone-2-512-gb-seryj/",
+    "price": 35000,
+    "link": "https://www.dns-shop.ru/product/419b968cdf64ed20/67-smartfon-nothing-phone-2a-128-gb-cernyj/",
     "isReceived": false,
     "groups": ["general"]
   },
   {
     "name": "Sony WH-1000XM4",
     "priority": 9,
-    "tags": ["Техника"],
-    "price": 23000,
+    "tags": ["Техника", "Аудиотехника"],
+    "price": 25000,
     "link": "https://biggeek.ru/products/besprovodnye-nausniki-sony-wh-1000xm4#tsvet-chyornyj-|-black",
     "isReceived": false,
     "groups": ["general"]
@@ -78,7 +78,7 @@
     "price": 175000,
     "link": "https://re-store.ru/catalog/Z16000A4H/",
     "isReceived": false,
-    "groups": ["general"]
+    "groups": ["hidden"]
   },
   {
     "name": "Книга игрока D&D",
@@ -183,26 +183,26 @@
     "name": "Microsoft Xbox Series X",
     "priority": 8,
     "tags": ["Техника", "Для игр"],
-    "price": 60000,
+    "price": 65000,
     "link": "https://www.dns-shop.ru/product/de3881f3d7dfed20/igrovaa-konsol-microsoft-xbox-series-x/",
     "isReceived": false,
     "groups": ["general"]
   },
   {
-    "name": "Sony Playstation 5",
+    "name": "Sony Playstation 5 Slim",
     "priority": 8,
     "tags": ["Техника", "Для игр"],
-    "price": 60000,
-    "link": "https://www.dns-shop.ru/product/b798dfc702d1d9cb/igrovaa-konsol-playstation-5/",
+    "price": 67000,
+    "link": "https://www.dns-shop.ru/product/9ddc800f81c0ed20/igrovaa-konsol-playstation-5-slim/",
     "isReceived": false,
     "groups": ["general"]
   },
   {
-    "name": "Монитор Samsung S27AG520PI",
+    "name": "Монитор Samsung Odyssey G7 G70B S28BG700EI",
     "priority": 8,
     "tags": ["Техника"],
-    "price": 30000,
-    "link": "https://www.dns-shop.ru/product/1b4d4dbfade8ed20/27-monitor-samsung-s27ag520pi-cernyj/",
+    "price": 50000,
+    "link": "https://www.dns-shop.ru/product/433a91c0d954ed20/28-monitor-samsung-odyssey-g7-g70b-s28bg700ei-cernyj/",
     "isReceived": false,
     "groups": ["general"]
   },
@@ -213,7 +213,7 @@
     "price": 22000,
     "link": "https://www.dns-shop.ru/product/16bbdc51600ced20/mediapleer-apple-tv-4k-mn893paa",
     "isReceived": false,
-    "groups": ["general"]
+    "groups": ["hidden"]
   },
   {
     "name": "iPad Mini 2021 64Gb + Apple Pencil",
@@ -556,5 +556,14 @@
     "link": "https://ozon.ru/t/bmXWxPq",
     "isReceived": false,
     "groups": ["newhouse"]
+  },
+  {
+    "name": "CMF Buds Pro 2",
+    "priority": 10,
+    "tags": ["Техника", "Аудиотехника"],
+    "price": 6500,
+    "link": "https://www.dns-shop.ru/product/a8e254be4fded0a4/nausniki-tws-cmf-by-nothing-buds-pro-2-cernyj/",
+    "isReceived": false,
+    "groups": ["general"]
   }
 ]
