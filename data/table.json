@@ -592,5 +592,14 @@
     "link": "https://www.dns-shop.ru/product/991a2145e3e51b80/240-gb-25-sata-nakopitel-adata-su650-asu650ss-240gt-r/",
     "isReceived": false,
     "groups": ["nas"]
+  },
+  {
+    "name": "У. Гибсон. Нейромант. Трилогия \"Киберпространство\"",
+    "priority": 10,
+    "tags": ["Художественная", "Киберпанк"],
+    "price": 1000,
+    "link": "https://www.chitai-gorod.ru/product/neyromant-trilogiya-kiberprostranstvo-3037857",
+    "isReceived": false,
+    "groups": ["books"]
   }
 ]
