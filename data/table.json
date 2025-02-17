@@ -1,11 +1,11 @@
 [
   {
-    "name": "Nothing Phone 2a 128Gb",
+    "name": "Realme 12 Pro + 12/512",
     "priority": 10,
     "tags": ["Техника"],
-    "price": 35000,
-    "link": "https://www.dns-shop.ru/product/419b968cdf64ed20/67-smartfon-nothing-phone-2a-128-gb-cernyj/",
-    "isReceived": false,
+    "price": 32000,
+    "link": "https://ozon.ru/t/WnBgRrB",
+    "isReceived": true,
     "groups": ["general"]
   },
   {
@@ -135,11 +135,11 @@
     "groups": ["general"]
   },
   {
-    "name": "Геймпад Flydigi Vader 3 Pro",
+    "name": "Геймпад Flydigi Vader 4 Pro",
     "priority": 7,
     "tags": ["Техника", "Для игр"],
     "price": 7000,
-    "link": "https://ozon.ru/t/lY2ZlMk",
+    "link": "https://ozon.ru/t/QdqjbJE",
     "isReceived": false,
     "groups": ["general"]
   },
