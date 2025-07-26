@@ -85,19 +85,21 @@ function selectGroup(name) {
 function fillGroups() {
   groupsBody.innerHTML = "";
 
-  jsonGroups.forEach((item) => {
-    const button = document.createElement("button");
-    if (item.name !== activeGroup) {
-      button.classList.add("outline", "secondary");
-    } else {
-      groupDescrBody.innerText = item.description;
-    }
-    button.appendChild(text(item.title));
-    button.addEventListener("click", (e) => {
-      selectGroup(item.name);
+  jsonGroups
+    .filter((x) => x.visible)
+    .forEach((item) => {
+      const button = document.createElement("button");
+      if (item.name !== activeGroup) {
+        button.classList.add("outline", "secondary");
+      } else {
+        groupDescrBody.innerText = item.description;
+      }
+      button.appendChild(text(item.title));
+      button.addEventListener("click", (e) => {
+        selectGroup(item.name);
+      });
+      groupsBody.appendChild(button);
     });
-    groupsBody.appendChild(button);
-  });
 }
 
 function fillTable() {
